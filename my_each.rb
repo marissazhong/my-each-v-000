@@ -7,4 +7,6 @@ def my_each(array)
   array
 end
 
-puts array[i]
+my_each(array) do |element|
+  puts element
+end
